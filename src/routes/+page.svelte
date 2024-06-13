@@ -1,2 +1,17 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script lang="ts">
+	import List from '$lib/List.svelte';
+	import emails from '$lib/emails.json';
+
+	let currentEmail = null;
+
+	const openEmail = (event) => {
+		currentEmail = emails[event.detail.i];
+	};
+</script>
+
+<main class="grid grid-cols-4">
+	<section>
+		<List on:message={openEmail} items={emails}></List>
+	</section>
+	<section class="col-span-3">{currentEmail?.message}</section>
+</main>
