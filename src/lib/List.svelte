@@ -6,7 +6,7 @@
 <div class="flex flex-col">
 	{#if items}
 		{#each items as item, i}
-			<ListItem {item} {i} />
+			<ListItem {i} />
 		{/each}
 	{/if}
 </div>

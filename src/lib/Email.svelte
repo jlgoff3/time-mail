@@ -1,7 +1,9 @@
 <script lang="ts">
 	import Avatar from './Avatar.svelte';
+	import { currentEmail } from './store/currentEmail';
+	import { emails } from './store/emails';
 
-	export let email: Email;
+	$: email = $emails[$currentEmail];
 </script>
 
 <article class="container p-6">
