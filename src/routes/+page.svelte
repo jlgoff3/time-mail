@@ -1,8 +1,8 @@
 <script lang="ts">
 	import Email from '$lib/Email.svelte';
+	import Gauge from '$lib/Gauge.svelte';
 	import List from '$lib/List.svelte';
 	import { emails } from '$lib/store/emails';
-	import { countdown } from '$lib/store/timer';
 	import Window from '$lib/Window.svelte';
 </script>
 
@@ -12,7 +12,7 @@
 	</section>
 	<section>
 		<Window title="Oxygen">
-			<p>{$countdown}</p>
+			<Gauge></Gauge>
 		</Window>
 	</section>
 	<section>

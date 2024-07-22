@@ -1,6 +1,6 @@
 import { derived, readable } from 'svelte/store';
 
-const ESCAPE_ROOM_DURATION = 45 /* Minutes */ * 60; /* Seconds */
+export const ESCAPE_ROOM_DURATION = 45 /* Minutes */ * 60; /* Seconds */
 const initialTime = new Date();
 
 export const timer = readable(0, (set) => {
@@ -24,7 +24,8 @@ export const currentSeconds = derived(timer, ($timer) => {
 });
 
 export const remainingTime = derived(timer, ($timer) => {
-	return ESCAPE_ROOM_DURATION - $timer;
+	const time = ESCAPE_ROOM_DURATION - $timer;
+	return time >= 0 ? time : 0;
 });
 
 export const remainingMinutes = derived(remainingTime, ($remainingTime) => {
