@@ -26,12 +26,12 @@
 		<Window title="Message"><Email></Email></Window>
 	</section>
 	<section>
-		<Window title={'Oxygen: ' + $countdown}>
+		<Window title="Oxygen">
 			<Gauge></Gauge>
 		</Window>
 	</section>
 	<section>
-		<Window title='Emails'>
+		<Window title="Emails">
 			<List items={$filteredEmails}></List>
 		</Window>
 	</section>
