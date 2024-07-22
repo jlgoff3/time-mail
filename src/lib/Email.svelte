@@ -3,7 +3,7 @@
 	import { currentEmail } from './store/currentEmail';
 	import { filteredEmails } from './store/emails';
 
-	$: email = $filteredEmails[$currentEmail];
+	$: email = $filteredEmails.find((e) => e.uuid == $currentEmail);
 </script>
 
 <article class="container p-6">

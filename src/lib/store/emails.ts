@@ -7,6 +7,6 @@ const rawEmails = emailsFile.map((email) => ({ ...email, time: email.time || -1,
 
 export const emails = writable(rawEmails);
 
-export const filteredEmails = derived([emailTimer, emails], ([$emailTimer, $emails]) => $emails.filter(e => e.time == -1 || e.time < $emailTimer))
+export const filteredEmails = derived([emailTimer, emails], ([$emailTimer, $emails]) => $emails.filter(e => e.time == -1 || e.time * 60 < $emailTimer))
 
-export const readEmails = writable(rawEmails.map(e => false))
+export const readEmails = writable(rawEmails.map(_e => false))

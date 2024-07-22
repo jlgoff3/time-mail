@@ -1,3 +1,3 @@
 import { writable } from 'svelte/store';
 
-export const currentEmail = writable(0);
+export const currentEmail = writable('');
