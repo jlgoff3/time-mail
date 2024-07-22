@@ -4,8 +4,9 @@
 
 	export let i;
 
-	const MAX_SUBJECT_LENGTH = 24;
-	const MAX_MESSAGE_LENGTH = 40;
+	const MAX_FROM_LENGTH = 12;
+	const MAX_SUBJECT_LENGTH = 12;
+	const MAX_MESSAGE_LENGTH = 32;
 	const BLANK_EMAIL = { from: '', subject: '', message: '', uuid: '' };
 
 	$: email = $filteredEmails[i] ?? BLANK_EMAIL;
@@ -18,9 +19,9 @@
 	};
 
 	const trim = (str: string, length: number) =>
-		str.length > MAX_MESSAGE_LENGTH ? str.substring(0, MAX_MESSAGE_LENGTH) + '...' : str;
+		str.length > length ? str.substring(0, length) + '...' : str;
 
-	$: from = email.from;
+	$: from = trim(email.from, MAX_FROM_LENGTH);
 	$: trimmed_subject = trim(email.subject, MAX_SUBJECT_LENGTH);
 	$: trimmed_message = trim(email.message, MAX_MESSAGE_LENGTH);
 
@@ -35,8 +36,8 @@
 <!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
 <article on:click={openEmail} class={item_class}>
 	<h3 class="col-span-3">{from}</h3>
-	<h4 class="col-span-2">{trimmed_subject}</h4>
-	<p class="col-span-7">{trimmed_message}</p>
+	<h4 class="col-span-3">{trimmed_subject}</h4>
+	<p class="col-span-6">{trimmed_message}</p>
 </article>
 
 <style>
