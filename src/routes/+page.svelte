@@ -3,7 +3,12 @@
 	import Gauge from '$lib/Gauge.svelte';
 	import List from '$lib/List.svelte';
 	import { emails } from '$lib/store/emails';
+	import { addTime, countdown } from '$lib/store/timer';
 	import Window from '$lib/Window.svelte';
+
+	const A_KEY = 'a';
+
+	const onKeyDown = (e) => e.key == A_KEY && addTime();
 </script>
 
 <main class="grid grid-cols-2 grid-rows-2 h-screen gap-4 p-4">
@@ -11,7 +16,7 @@
 		<Window title="Message"><Email></Email></Window>
 	</section>
 	<section>
-		<Window title="Oxygen">
+		<Window title={"Oxygen:" + $countdown}>
 			<Gauge></Gauge>
 		</Window>
 	</section>
@@ -21,3 +26,5 @@
 		</Window>
 	</section>
 </main>
+
+<svelte:window on:keydown|preventDefault={onKeyDown} />
