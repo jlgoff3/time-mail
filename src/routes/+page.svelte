@@ -2,7 +2,7 @@
 	import Email from '$lib/Email.svelte';
 	import Gauge from '$lib/Gauge.svelte';
 	import List from '$lib/List.svelte';
-	import { emails } from '$lib/store/emails';
+	import { filteredEmails } from '$lib/store/emails';
 	import { addTime, countdown } from '$lib/store/timer';
 	import Window from '$lib/Window.svelte';
 
@@ -16,13 +16,13 @@
 		<Window title="Message"><Email></Email></Window>
 	</section>
 	<section>
-		<Window title={"Oxygen:" + $countdown}>
+		<Window title={"Oxygen: " + $countdown}>
 			<Gauge></Gauge>
 		</Window>
 	</section>
 	<section>
 		<Window title="Emails">
-			<List items={$emails}></List>
+			<List items={$filteredEmails}></List>
 		</Window>
 	</section>
 </main>

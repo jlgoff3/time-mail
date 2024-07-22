@@ -1,9 +1,9 @@
 <script lang="ts">
 	import Avatar from './Avatar.svelte';
 	import { currentEmail } from './store/currentEmail';
-	import { emails } from './store/emails';
+	import { filteredEmails } from './store/emails';
 
-	$: email = $emails[$currentEmail];
+	$: email = $filteredEmails[$currentEmail];
 </script>
 
 <article class="container p-6">

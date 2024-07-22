@@ -1,9 +1,10 @@
-import { derived, readable, writable, get } from 'svelte/store';
+import { derived, writable, get, readable } from 'svelte/store';
 
-export const ESCAPE_ROOM_DURATION = 45 /* Minutes */ * 60; /* Seconds */
+export const ESCAPE_ROOM_DURATION = 35 /* Minutes */ * 60; /* Seconds */
 export const ADD_TIME = 10 /* Minutes */ * 60; /* Seconds */
 
 const lastTime = writable(new Date());
+const lastEmailTime = writable(new Date());
 
 export const timer = writable(0, (set) => {
 	const update = () => {
@@ -18,7 +19,20 @@ export const timer = writable(0, (set) => {
 	return () => clearInterval(interval);
 });
 
-export const addTime = () => timer.update(time => Math.max(time - ADD_TIME, 0))
+export const emailTimer = readable(0, (set) => {
+	const update = () => {
+		const currentTime = new Date();
+		const delta_seconds = Math.floor((currentTime.getTime() - get(lastEmailTime).getTime()) / 1000);
+		lastTime.set(currentTime)
+		set(get(emailTimer) + delta_seconds);
+	};
+
+	const interval = setInterval(update, 1000);
+
+	return () => clearInterval(interval);
+});
+
+export const addTime = () => timer.update(time => time - ADD_TIME)
 
 export const currentMinutes = derived(timer, ($timer) => {
 	return Math.floor($timer / 60);

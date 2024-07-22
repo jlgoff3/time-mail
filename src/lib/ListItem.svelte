@@ -1,19 +1,19 @@
 <script lang="ts">
 	import { currentEmail } from './store/currentEmail';
-	import { emails } from './store/emails';
+	import { filteredEmails, emails, readEmails } from './store/emails';
 
 	export let i;
 
 	const MAX_SUBJECT_LENGTH = 24;
-	const MAX_MESSAGE_LENGTH = 80;
+	const MAX_MESSAGE_LENGTH = 40;
 
-	$: email = $emails[i];
+	$: realIndex = $emails.findIndex((e) => e.uuid == $filteredEmails[i].uuid);
 
-	$: read = email.read;
+	$: email = $filteredEmails[i];
 
 	const openEmail = () => {
 		$currentEmail = i;
-		$read = true;
+		$readEmails[realIndex] = true;
 	};
 
 	const trim = (str: string, length: number) =>
@@ -24,18 +24,18 @@
 	$: trimmed_message = trim(email.message, MAX_MESSAGE_LENGTH);
 
 	$: item_class = [
-		'grid grid-cols-6 border-b-4 border-black p-2',
+		'grid grid-cols-12 border-b-4 border-black py-2 px-1',
 		$currentEmail == i ? 'bg-blue-400' : 'hover:bg-slate-400',
-		$read ? '' : 'font-bold'
+		$readEmails[realIndex] ? 'font-thin' : 'font-bold italic'
 	].join(' ');
 </script>
 
 <!-- svelte-ignore a11y-click-events-have-key-events -->
 <!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
 <article on:click={openEmail} class={item_class}>
-	<h3>{from}</h3>
-	<h4>{trimmed_subject}</h4>
-	<p class="col-span-4">{trimmed_message}</p>
+	<h3 class="col-span-3">{from} {email.time}</h3>
+	<h4 class="col-span-2">{trimmed_subject}</h4>
+	<p class="col-span-7">{trimmed_message}</p>
 </article>
 
 <style>

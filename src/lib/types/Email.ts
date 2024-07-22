@@ -1,7 +1,8 @@
 interface Email {
 	to: string;
 	from: string;
-	read: boolean;
+	time: number;
 	subject: string;
 	message: string;
+	read: boolean;
 }
