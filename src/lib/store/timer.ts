@@ -2,7 +2,7 @@ import { derived, writable, get } from 'svelte/store';
 import { currentEmail } from './currentEmail';
 import { readEmails } from './emails';
 
-export const DEBUG_FLAG = true
+export const DEBUG_FLAG = false
 
 export const ESCAPE_ROOM_DURATION = 35 /* Minutes */ * 60; /* Seconds */
 export const ADD_TIME = 10 /* Minutes */ * 60; /* Seconds */
