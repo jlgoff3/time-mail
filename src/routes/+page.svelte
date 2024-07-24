@@ -3,7 +3,7 @@
 	import Gauge from '$lib/Gauge.svelte';
 	import List from '$lib/List.svelte';
 	import { filteredEmails } from '$lib/store/emails';
-	import { addTime, countdown, emailTimer, resetAll } from '$lib/store/timer';
+	import { addTime, resetAll } from '$lib/store/timer';
 	import Window from '$lib/Window.svelte';
 
 	const ADD_TIME_KEY = 'a';

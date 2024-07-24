@@ -1,17 +1,66 @@
 [
 	{
-		"to": "jbot@time.com",
-		"from": "rrat@time.com",
-		"time": 0.5,
-		"subject": "Cheese?",
-		"message": "Cheese :) Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec ex nec nulla ultricies condimentum in eget urna. Aliquam sagittis eget ex et luctus. Nullam sed congue dui, in maximus justo. Nunc blandit ex tortor, id ultrices lacus aliquet in. Suspendisse at lorem sit amet libero fermentum auctor. Nullam facilisis, diam eget feugiat vestibulum, metus orci posuere massa, quis porta ex massa at nisi. Nam feugiat dignissim mauris, sit amet ornare libero vestibulum eget. Suspendisse nibh quam, pretium quis urna a, aliquet eleifend augue. Etiam a dolor et sapien aliquam feugiat.\n\nSuspendisse pretium nulla neque.Suspendisse mattis sit amet risus sit amet venenatis. Sed tristique ipsum sit amet volutpat tempus. Aliquam vulputate magna id lectus mattis, ac blandit felis tincidunt. Curabitur fringilla massa nibh, at efficitur lectus efficitur sed. Pellentesque sed dui augue. Praesent volutpat turpis tortor, eget tempus lorem auctor nec. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla ornare ipsum blandit nibh ultricies, vitae viverra leo iaculis. Donec at ex ut tortor sollicitudin fermentum. Duis aliquam ac ipsum ut pellentesque. In imperdiet enim orci, nec sagittis magna volutpat eu. Phasellus iaculis dui eu turpis consectetur, non mattis magna posuere. Etiam blandit ut tellus sit amet fermentum.\n\nSed ornare tincidunt blandit. Donec a orci nisi. Nulla maximus imperdiet nisi id convallis. Nulla non velit eros. Nulla interdum ipsum et pulvinar consequat. Aliquam mauris ante, porta in nulla quis, vulputate lobortis felis. Aliquam commodo ante at quam semper tincidunt. Mauris egestas tempor turpis ultrices dapibus. Sed vitae ornare diam. Nulla facilisi.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec ex nec nulla ultricies condimentum in eget urna. Aliquam sagittis eget ex et luctus. Nullam sed congue dui, in maximus justo. Nunc blandit ex tortor, id ultrices lacus aliquet in. Suspendisse at lorem sit amet libero fermentum auctor. Nullam facilisis, diam eget feugiat vestibulum, metus orci posuere massa, quis porta ex massa at nisi. Nam feugiat dignissim mauris, sit amet ornare libero vestibulum eget. Suspendisse nibh quam, pretium quis urna a, aliquet eleifend augue. Etiam a dolor et sapien aliquam feugiat.\n\nSuspendisse pretium nulla neque.Suspendisse mattis sit amet risus sit amet venenatis. Sed tristique ipsum sit amet volutpat tempus. Aliquam vulputate magna id lectus mattis, ac blandit felis tincidunt. Curabitur fringilla massa nibh, at efficitur lectus efficitur sed. Pellentesque sed dui augue. Praesent volutpat turpis tortor, eget tempus lorem auctor nec. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla ornare ipsum blandit nibh ultricies, vitae viverra leo iaculis. Donec at ex ut tortor sollicitudin fermentum. Duis aliquam ac ipsum ut pellentesque. In imperdiet enim orci, nec sagittis magna volutpat eu. Phasellus iaculis dui eu turpis consectetur, non mattis magna posuere. Etiam blandit ut tellus sit amet fermentum.\n\nSed ornare tincidunt blandit. Donec a orci nisi. Nulla maximus imperdiet nisi id convallis. Nulla non velit eros. Nulla interdum ipsum et pulvinar consequat. Aliquam mauris ante, porta in nulla quis, vulputate lobortis felis. Aliquam commodo ante at quam semper tincidunt. Mauris egestas tempor turpis ultrices dapibus. Sed vitae ornare diam. Nulla facilisi.\n\n"
+		"to": "allstaff@timelabs.com",
+		"from": "dquitson@timelabs.com",
+		"time": 1,
+		"subject": "Weekly Security Codes",
+		"message": "Hey team,\n\nY’all are going to love the puzzles for this week’s elevator codes :D\n\nFloor 2: 4 Number trivia questions: How many planets?\n\nFloor 3: CYPHER WITH KEY IN HR FILES?"
 	},
 	{
-		"to": "user@time.com",
-		"from": "rrat@time.com",
+		"to": "gbergstrom@timelabs.com",
+		"from": "gbergstrom2@timelabs.com",
 		"time": 1,
-		"subject": "Heh heh heh",
-		"message": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec ex nec nulla ultricies condimentum in eget urna. Aliquam sagittis eget ex et luctus. Nullam sed congue dui, in maximus justo. Nunc blandit ex tortor, id ultrices lacus aliquet in. Suspendisse at lorem sit amet libero fermentum auctor. Nullam facilisis, diam eget feugiat vestibulum, metus orci posuere massa, quis porta ex massa at nisi. Nam feugiat dignissim mauris, sit amet ornare libero vestibulum eget. Suspendisse nibh quam, pretium quis urna a, aliquet eleifend augue. Etiam a dolor et sapien aliquam feugiat.\n\nSuspendisse pretium nulla neque.Suspendisse mattis sit amet risus sit amet venenatis. Sed tristique ipsum sit amet volutpat tempus. Aliquam vulputate magna id lectus mattis, ac blandit felis tincidunt. Curabitur fringilla massa nibh, at efficitur lectus efficitur sed. Pellentesque sed dui augue. Praesent volutpat turpis tortor, eget tempus lorem auctor nec. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla ornare ipsum blandit nibh ultricies, vitae viverra leo iaculis. Donec at ex ut tortor sollicitudin fermentum. Duis aliquam ac ipsum ut pellentesque. In imperdiet enim orci, nec sagittis magna volutpat eu. Phasellus iaculis dui eu turpis consectetur, non mattis magna posuere. Etiam blandit ut tellus sit amet fermentum.\n\nSed ornare tincidunt blandit. Donec a orci nisi. Nulla maximus imperdiet nisi id convallis. Nulla non velit eros. Nulla interdum ipsum et pulvinar consequat. Aliquam mauris ante, porta in nulla quis, vulputate lobortis felis. Aliquam commodo ante at quam semper tincidunt. Mauris egestas tempor turpis ultrices dapibus. Sed vitae ornare diam. Nulla facilisi. "
+		"subject": "RE: Chem Lab Codes",
+		"message": "Are you KIDDING me?\n\nI can’t send it over email, but it’s in the box in the office filing cabinet. Code is my birthday - you’d BETTER remember that!\n\nHate you,\nyour loving sister"
+	},
+	{
+		"to": "gbergstrom2@timelabs.com",
+		"from": "gbergstrom@timelabs.com",
+		"time": 1,
+		"subject": "Chem Lab Codes",
+		"message": "Hey sis, what’s the code to the chem lab doors again? I cannot remember it for the life of me.\n\n- G"
+	},
+	{
+		"to": "jspencer@timelabs.com",
+		"from": "ckuhn@timelabs.com",
+		"time": 1,
+		"subject": "Plungers Good to Go",
+		"message": "Judd,\n\nWe’re ready to blast on the third floor now. Plungers are by the most recent blast site by the SOME INDICATOR OF WHERE TO LOOK (EXCAVATOR OR SOMETHING). Still waiting on you for the caps and the actual explosives though. I think Geraldine’s got the explosives in the chem lab, but Gideon said you’ve got the caps in your locker. Hurry up and get them to me - we need to get this done by end of week.\n\nThanks,\nCory Kuhn"
+	},
+	{
+		"to": "ckuhn@timelabs.com",
+		"from": "jspencer@timelabs.com",
+		"time": 1,
+		"subject": "Bomb Building Instructions",
+		"message": "Hey Cory,\n\nHoping this doesn’t get me on a list somewhere, but here’s the basic instructions on building an explosive device for getting rid of those boulders on third floor that you were asking about. Basically, you need three things - some type of explosive material, something to trigger it, and something to set it off while you’re far enough away to not get hit by debris. Good news is we’ve got the stuff lying around the structure. Bad news is the matron’s been getting on me about “not sending sensitive information over email,” but I’m also “not supposed to write stuff down.”\n\nAnyway, I left you more detailed instructions in that book about the “let them eat cake” lady that we’re “reading” for book club.\n\n- Spence"
+	},
+	{
+		"to": "sbeahan@timelabs.com",
+		"from": "cheathcote@timelabs.com",
+		"time": 1,
+		"subject": "RE: Mining Bot Room",
+		"message": "Yeah, man, it’s next door over from the repair room. It’s a hallway with all the charging stations. Can’t miss it.\n\n- C"
+	},
+	{
+		"to": "cheathcote@timelabs.com",
+		"from": "sbeahan@timelabs.com",
+		"time": 1,
+		"subject": "Mining Bot Room",
+		"message": "Hey C, where’s that mining bot located? I know it’s on the second floor, but without the finished maps, I just get lost down there right now.\n\n- SB"
+	},
+	{
+		"to": "sbeahan@timelabs.com",
+		"from": "cheathcote@timelabs.com",
+		"time": 1,
+		"subject": "RE: Bot Terminal Code",
+		"message": "Shemar,\n\nAgain? You’re going to end up back as a class 2 with Bergstrom. It’s in the bot files, bottom cabinet. Repair Rat’s got the key.\n\nStop implicating me in your mistakes.\n\n- C"
+	},
+	{
+		"to": "cheathcote@timelabs.com",
+		"from": "sbeahan@timelabs.com",
+		"time": 1,
+		"subject": "Bot Terminal Code",
+		"message": "Hey C, What’s the code to get J-Bot out of storage again? I… may have made a small mess on 2nd floor and need to clean it up quick. Don’t tell the matron, please.\n\n- SB"
 	},
 	{
 		"to": "ehyatt@timelabs.com",
@@ -54,5 +103,11 @@
 		"from": "amiller@timelabs.com",
 		"subject": "Addressing Recent Tensions",
 		"message": "Hi Geraldine,\n\nI hope this email finds you well.\n\nI wanted to reach out regarding our conversation yesterday. I feel that there were some misunderstandings and perhaps some unintended remarks that led to hurt feelings on both sides. I value our working relationship and believe it's important to address these issues directly so we can continue to collaborate effectively.\n\nWhen I made the comment about the project timeline, I did not intend to imply that you were not contributing enough. I realize now that my words may have come across that way, and for that, I am truly sorry. It was not my intention to insult or undermine you in any way. I respect your work and contributions to our team greatly.\n\nI believe that open and honest communication is key to resolving conflicts and moving forward. If you have time, I would appreciate the opportunity to discuss this further and understand your perspective better. Please let me know when you might be available for a brief chat.\n\nThank you for considering this, and I hope we can find a way to resolve this and work together harmoniously.\n\nBest regards,\nAnnalise"
+	},
+	{
+		"to": "jbot@time.com",
+		"from": "rrat@time.com",
+		"subject": "Cheese?",
+		"message": "Cheese :) Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec ex nec nulla ultricies condimentum in eget urna. Aliquam sagittis eget ex et luctus. Nullam sed congue dui, in maximus justo. Nunc blandit ex tortor, id ultrices lacus aliquet in. Suspendisse at lorem sit amet libero fermentum auctor. Nullam facilisis, diam eget feugiat vestibulum, metus orci posuere massa, quis porta ex massa at nisi. Nam feugiat dignissim mauris, sit amet ornare libero vestibulum eget. Suspendisse nibh quam, pretium quis urna a, aliquet eleifend augue. Etiam a dolor et sapien aliquam feugiat.\n\nSuspendisse pretium nulla neque.Suspendisse mattis sit amet risus sit amet venenatis. Sed tristique ipsum sit amet volutpat tempus. Aliquam vulputate magna id lectus mattis, ac blandit felis tincidunt. Curabitur fringilla massa nibh, at efficitur lectus efficitur sed. Pellentesque sed dui augue. Praesent volutpat turpis tortor, eget tempus lorem auctor nec. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla ornare ipsum blandit nibh ultricies, vitae viverra leo iaculis. Donec at ex ut tortor sollicitudin fermentum. Duis aliquam ac ipsum ut pellentesque. In imperdiet enim orci, nec sagittis magna volutpat eu. Phasellus iaculis dui eu turpis consectetur, non mattis magna posuere. Etiam blandit ut tellus sit amet fermentum.\n\nSed ornare tincidunt blandit. Donec a orci nisi. Nulla maximus imperdiet nisi id convallis. Nulla non velit eros. Nulla interdum ipsum et pulvinar consequat. Aliquam mauris ante, porta in nulla quis, vulputate lobortis felis. Aliquam commodo ante at quam semper tincidunt. Mauris egestas tempor turpis ultrices dapibus. Sed vitae ornare diam. Nulla facilisi.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec ex nec nulla ultricies condimentum in eget urna. Aliquam sagittis eget ex et luctus. Nullam sed congue dui, in maximus justo. Nunc blandit ex tortor, id ultrices lacus aliquet in. Suspendisse at lorem sit amet libero fermentum auctor. Nullam facilisis, diam eget feugiat vestibulum, metus orci posuere massa, quis porta ex massa at nisi. Nam feugiat dignissim mauris, sit amet ornare libero vestibulum eget. Suspendisse nibh quam, pretium quis urna a, aliquet eleifend augue. Etiam a dolor et sapien aliquam feugiat.\n\nSuspendisse pretium nulla neque.Suspendisse mattis sit amet risus sit amet venenatis. Sed tristique ipsum sit amet volutpat tempus. Aliquam vulputate magna id lectus mattis, ac blandit felis tincidunt. Curabitur fringilla massa nibh, at efficitur lectus efficitur sed. Pellentesque sed dui augue. Praesent volutpat turpis tortor, eget tempus lorem auctor nec. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla ornare ipsum blandit nibh ultricies, vitae viverra leo iaculis. Donec at ex ut tortor sollicitudin fermentum. Duis aliquam ac ipsum ut pellentesque. In imperdiet enim orci, nec sagittis magna volutpat eu. Phasellus iaculis dui eu turpis consectetur, non mattis magna posuere. Etiam blandit ut tellus sit amet fermentum.\n\nSed ornare tincidunt blandit. Donec a orci nisi. Nulla maximus imperdiet nisi id convallis. Nulla non velit eros. Nulla interdum ipsum et pulvinar consequat. Aliquam mauris ante, porta in nulla quis, vulputate lobortis felis. Aliquam commodo ante at quam semper tincidunt. Mauris egestas tempor turpis ultrices dapibus. Sed vitae ornare diam. Nulla facilisi.\n\n"
 	}
 ]
