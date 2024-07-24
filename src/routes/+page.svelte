@@ -3,7 +3,7 @@
 	import Gauge from '$lib/Gauge.svelte';
 	import List from '$lib/List.svelte';
 	import { filteredEmails } from '$lib/store/emails';
-	import { addTime, resetAll } from '$lib/store/timer';
+	import { addTime, countdown, DEBUG_FLAG, resetAll } from '$lib/store/timer';
 	import Window from '$lib/Window.svelte';
 
 	const ADD_TIME_KEY = 'a';
@@ -26,7 +26,7 @@
 		<Window title="Message"><Email></Email></Window>
 	</section>
 	<section>
-		<Window title="Oxygen">
+		<Window title={DEBUG_FLAG ? 'Oxygen: ' + countdown : 'Oxygen'}>
 			<Gauge></Gauge>
 		</Window>
 	</section>
