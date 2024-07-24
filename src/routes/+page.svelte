@@ -15,6 +15,7 @@
 
 	const ADD_TIME_KEY = 'a';
 	const RESET_ALL_KEY = 'r';
+	const FAST_FORWARD_KEY = 'f';
 
 	const onKeyDown = (e) => {
 		switch (e.key) {
@@ -22,7 +23,10 @@
 				addTime();
 				break;
 			case RESET_ALL_KEY:
-				DEBUG_FLAG ? fastForward() : resetAll();
+				resetAll();
+				break;
+			case FAST_FORWARD_KEY:
+				DEBUG_FLAG && fastForward();
 				break;
 		}
 	};
