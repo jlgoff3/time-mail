@@ -1,6 +1,8 @@
-import { derived, writable, get, readable } from 'svelte/store';
+import { derived, writable, get } from 'svelte/store';
 import { currentEmail } from './currentEmail';
 import { readEmails } from './emails';
+
+const DEBUG_FLAG = true
 
 export const ESCAPE_ROOM_DURATION = 35 /* Minutes */ * 60; /* Seconds */
 export const ADD_TIME = 10 /* Minutes */ * 60; /* Seconds */
@@ -34,7 +36,7 @@ export const emailTimer = writable(0, (_set, update) => {
 	return () => clearInterval(interval);
 });
 
-export const addTime = () => timer.update(time => time - ADD_TIME)
+export const addTime = () => timer.update(time => DEBUG_FLAG ? time - ADD_TIME : time + ADD_TIME / 2)
 
 export const resetAll = () => {
 	timer.update(_t => 0)
