@@ -46,8 +46,8 @@ export const resetAll = () => {
 }
 
 export const fastForward = () => {
-	timer.update(t => t - ADD_TIME / 2)
-	emailTimer.update(t => t - ADD_TIME / 2)
+	timer.update(t => t + ADD_TIME / 2)
+	emailTimer.update(t => t + ADD_TIME / 2)
 }
 
 export const currentMinutes = derived(timer, ($timer) => {
