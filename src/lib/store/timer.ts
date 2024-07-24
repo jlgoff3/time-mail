@@ -36,7 +36,7 @@ export const emailTimer = writable(0, (_set, update) => {
 	return () => clearInterval(interval);
 });
 
-export const addTime = () => timer.update(time => (DEBUG_FLAG ? time - ADD_TIME : time + (ADD_TIME / 2)))
+export const addTime = () => timer.update(time => (DEBUG_FLAG ? time + (ADD_TIME / 2) : time - ADD_TIME))
 
 export const resetAll = () => {
 	timer.update(_t => 0)
