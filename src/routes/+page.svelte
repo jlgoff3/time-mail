@@ -26,7 +26,7 @@
 		<Window title="Message"><Email></Email></Window>
 	</section>
 	<section>
-		<Window title={DEBUG_FLAG ? 'Oxygen: ' + countdown : 'Oxygen'}>
+		<Window title={DEBUG_FLAG ? 'Oxygen: ' + $countdown : 'Oxygen'}>
 			<Gauge></Gauge>
 		</Window>
 	</section>
