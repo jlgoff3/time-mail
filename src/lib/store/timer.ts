@@ -36,13 +36,18 @@ export const emailTimer = writable(0, (_set, update) => {
 	return () => clearInterval(interval);
 });
 
-export const addTime = () => timer.update(time => (DEBUG_FLAG ? time + (ADD_TIME / 2) : time - ADD_TIME))
+export const addTime = () => timer.update(time => time - ADD_TIME)
 
 export const resetAll = () => {
 	timer.update(_t => 0)
 	emailTimer.update(_t => 0)
 	currentEmail.set('')
 	readEmails.update(re => re.map(_r => false))
+}
+
+export const fastForward = () => {
+	timer.update(t => t - ADD_TIME / 2)
+	emailTimer.update(t => t - ADD_TIME / 2)
 }
 
 export const currentMinutes = derived(timer, ($timer) => {

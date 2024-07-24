@@ -3,7 +3,14 @@
 	import Gauge from '$lib/Gauge.svelte';
 	import List from '$lib/List.svelte';
 	import { filteredEmails } from '$lib/store/emails';
-	import { addTime, countdown, DEBUG_FLAG, resetAll } from '$lib/store/timer';
+	import {
+		addTime,
+		countdown,
+		DEBUG_FLAG,
+		emailTimer,
+		fastForward,
+		resetAll
+	} from '$lib/store/timer';
 	import Window from '$lib/Window.svelte';
 
 	const ADD_TIME_KEY = 'a';
@@ -15,7 +22,7 @@
 				addTime();
 				break;
 			case RESET_ALL_KEY:
-				resetAll();
+				DEBUG_FLAG ? fastForward() : resetAll();
 				break;
 		}
 	};
@@ -31,7 +38,7 @@
 		</Window>
 	</section>
 	<section>
-		<Window title="Emails">
+		<Window title={DEBUG_FLAG ? 'Emails: ' + $emailTimer : 'Oxygen'}>
 			<List items={$filteredEmails}></List>
 		</Window>
 	</section>
