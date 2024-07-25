@@ -1,5 +1,12 @@
 [
 	{
+		"to": "gbergstrom2@timelabs.com",
+		"from": "ckuhn@timelabs.com",
+		"time": 20,
+		"subject": "Air Filtration Fusebox",
+		"message": "Gideon,\n\nDid you remember to change out the fuse on the oxygen system like I asked? Fusebox is open in the first floor mechanical room, just needs the fuse from the workshop to get it running at full efficiency. Without it, we’re running around 80% of the oxygen levels we should.\n\n- Cory"
+	},
+	{
 		"to": "gbergstrom@timelabs.com",
 		"from": "gbergstrom2@timelabs.com",
 		"time": 25,
@@ -25,7 +32,8 @@
 		"from": "jspencer@timelabs.com",
 		"time": 15,
 		"subject": "Bomb Building Instructions",
-		"message": "Hey Cory,\n\nHoping this doesn’t get me on a list somewhere, but here’s the basic instructions on building an explosive device for getting rid of those boulders on third floor that you were asking about. Basically, you need three things - some type of explosive material, something to trigger it, and something to set it off while you’re far enough away to not get hit by debris. Good news is we’ve got the stuff lying around the structure. Bad news is the matron’s been getting on me about “not sending sensitive information over email,” but I’m also “not supposed to write stuff down.”\n\nAnyway, I left you more detailed instructions in that book about the “let them eat cake” lady that we’re “reading” for book club.\n\n- Spence"
+		"message": "Hey Cory,\n\nHoping this doesn’t get me on a list somewhere, but here’s the basic instructions on building an explosive device for getting rid of those boulders on third floor that you were asking about. Basically, you need three things - some type of explosive material, something to trigger it, and something to set it off while you’re far enough away to not get hit by debris. Good news is we’ve got the stuff lying around the structure. Bad news is the matron’s been getting on me about "not sending sensitive information over email,
+		" but I’m also "not supposed to write stuff down."\n\nAnyway, I left you more detailed instructions in that book about the "let them eat cake" lady that we’re "reading" for book club.\n\n- Spence"
 	},
 	{
 		"to": "sbeahan@timelabs.com",
@@ -72,7 +80,7 @@
 		"from": "amiller@timelabs.com",
 		"timer": 1,
 		"subject": "Book Club Meeting Next Week",
-		"message": "Hi Judd,\n\nI hope you're having a good week so far. Just a quick reminder that our book club is meeting next Tuesday at 6:00 PM in the conference room. We'll be discussing “Queen of France” by Andre Castelot, so if you haven't finished it yet, you still have a bit of time. \n\nLooking forward to hearing your thoughts on the book!\n\nBest regards,\nAnnalise"
+		"message": "Hi Judd,\n\nI hope you're having a good week so far. Just a quick reminder that our book club is meeting next Tuesday at 6:00 PM in the conference room. We'll be discussing "Queen of France" by Andre Castelot, so if you haven't finished it yet, you still have a bit of time. \n\nLooking forward to hearing your thoughts on the book!\n\nBest regards,\nAnnalise"
 	},
 	{
 		"to": "sbeahan@timelabs.com",
