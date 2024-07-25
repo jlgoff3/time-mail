@@ -2,7 +2,7 @@
 	import Email from '$lib/Email.svelte';
 	import Gauge from '$lib/Gauge.svelte';
 	import List from '$lib/List.svelte';
-	import { filteredEmails } from '$lib/store/emails';
+	import { addHint, filteredEmails } from '$lib/store/emails';
 	import {
 		addTime,
 		countdown,
@@ -16,6 +16,7 @@
 	const ADD_TIME_KEY = 'a';
 	const RESET_ALL_KEY = 'r';
 	const FAST_FORWARD_KEY = 'f';
+	const NUMBER_KEYS = ['1', '2', '3', '4', '5', '6', '7', '8', '9'];
 
 	const onKeyDown = (e) => {
 		switch (e.key) {
@@ -28,6 +29,10 @@
 			case FAST_FORWARD_KEY:
 				DEBUG_FLAG && fastForward();
 				break;
+			default:
+				if (NUMBER_KEYS.includes(e.key)) {
+					addHint(e.key);
+				}
 		}
 	};
 </script>

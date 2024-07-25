@@ -1,6 +1,6 @@
 import { derived, writable, get } from 'svelte/store';
 import { currentEmail } from './currentEmail';
-import { readEmails } from './emails';
+import { readEmails, resetEmails } from './emails';
 
 export const DEBUG_FLAG = false
 
@@ -42,7 +42,7 @@ export const resetAll = () => {
 	timer.update(_t => 0)
 	emailTimer.update(_t => 0)
 	currentEmail.set('')
-	readEmails.update(re => re.map(_r => false))
+	resetEmails()
 }
 
 export const fastForward = () => {
